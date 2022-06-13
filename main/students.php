@@ -10,7 +10,9 @@ require_once('auth.php');
  <link href="css/bootstrap.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css">
-  
+  <style>
+	
+  </style>
   <link rel="stylesheet" href="css/font-awesome.min.css">
     <style type="text/css">
       body {
@@ -136,10 +138,12 @@ window.onload=startclock;
           <div class="well sidebar-nav">
               <ul class="nav nav-list">
               <li><a href="index.php"><i class="icon-dashboard icon-2x"></i> Dashboard </a></li> 
-			<li class="active"><a href="students.php"><i class="icon-group icon-2x"></i>Manage Students</a>  </li>
+			<li class="active"><a href="students.php"><i class="icon-group icon-2x"></i>All Students</a>  </li>
 			<li><a href="addstudent.php"><i class="icon-group icon-2x"></i>Add Student</a>     </li>
 
 			<br><br>	
+		
+		
 			<li>
 			 <div class="hero-unit-clock">
 		

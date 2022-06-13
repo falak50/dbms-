@@ -21,9 +21,10 @@ Model :: Students Records Management System
   <link rel="stylesheet" href="main/css/font-awesome.min.css">
     <style type="text/css">
       body {
-		background-color = #D6ACE6;
+		background-color = #D6ACE6; */
         padding-top: 60px;
-        padding-bottom: 40px;
+         padding-bottom: 40px; 
+		
       }
       .sidebar-nav {
         padding: 9px 0;

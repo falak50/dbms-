@@ -20,6 +20,21 @@ require_once('auth.php');
       .sidebar-nav {
         padding: 9px 0;
       }
+      .mycls{
+        /* margin-top:30px */
+        margin-right:50px
+        /* margin-bottom:30px */
+        /* margin-left:30px */
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        padding: 50px;
+        /* width: 900px; */
+        /* height: 800px; */
+        border-radius: 25px;
+        border: 2px solid blue;
+        background-color: #cccccc;
+
+      }
+     
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -152,7 +167,7 @@ window.onload=startclock;
 				</ul>             
           </div><!--/.well -->
         </div><!--/span-->
-	<div class="span10">
+	<div class="span10 mycls">
 	<div class="contentheader">
 			<i class="icon-table"></i> Add Student
 			</div>
@@ -178,7 +193,7 @@ $prefix= md5(time()*rand(1, 2)); echo strip_tags(substr($prefix ,0,4));?>" name=
 	<option>Male</option>
 </select><br>
 <span>D.O.B: </span><input type	="date" style="width:265px; height:30px;" name="dob" required /><br>
-<span>Admission Year </span><select name="yoa" style="width:265px; height:30px; margin-left:-5px;" >
+<span>Admit Year</span><select name="yoa" style="width:265px; height:30px; margin-left:-5px;" >
 
 	<option>2020</option>
 	<option>2021</option>
@@ -188,8 +203,11 @@ $prefix= md5(time()*rand(1, 2)); echo strip_tags(substr($prefix ,0,4));?>" name=
 </select><br>
 <span>Parent Phone: </span><input type	="text" style="width:265px; height:30px;" name="parent" required />
 <br>
-<span>Report : </span><textarea style="width:265px; height:50px;" name="report" ></textarea><br>
-<span>Passport:</span><input type="file" name="file" id="file" required ><br><br>
+<span>Report : </span><textarea style="width:265px; height:40px;" name="report" ></textarea><br>
+<div    >
+<span >Photo:</span><input  style="width:265px; height:40px;"  type="file" name="file" id="file" required ><br><br>
+</div>
+
 <div >
 
 <button class="btn btn-success btn-block btn-large" style="width:267px;"><i class="icon icon-save icon-large"></i> Save Student</button>
