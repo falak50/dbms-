@@ -36,6 +36,14 @@ require_once('auth.php');
       }
      
     </style>
+
+<style>
+		body{
+	        /* margin-left : 10px, */
+			background-image : url(p3.jfif);
+		}
+	
+	</style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -150,7 +158,7 @@ window.onload=startclock;
 	<div class="span2">
           <div class="well sidebar-nav">
               <ul class="nav nav-list">
-              <li><a href="index.php"><i class="icon-dashboard icon-2x"></i> Dashboard </a></li> 
+              <li><a href="index.php"><i class="icon-dashboard icon-2x"></i> Home </a></li> 
 			<li><a href="students.php"><i class="icon-group icon-2x"></i>Manage Students</a>  </li>
 			<li class="active"><a href="addstudent.php"><i class="icon-user icon-2x"></i>Add Student</a>     </li>
 
@@ -158,6 +166,11 @@ window.onload=startclock;
 			<li>
 			 <div class="hero-unit-clock">
 		
+       <br>
+       <hr>
+       <p>This is add page</p>
+       <p>Add here student</p>
+       <hr>
 			<form name="clock">
 			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
 			</form>

@@ -23,6 +23,13 @@ require_once('auth.php');
         padding: 9px 0;
       }
     </style>
+	<style>
+		body{
+	        /* margin-left : 10px, */
+			background-image : url(p3.jfif);
+		}
+	
+	</style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -146,7 +153,13 @@ window.onload=startclock;
 		
 			<li>
 			 <div class="hero-unit-clock">
-		
+		<!-- space -->
+		<br>
+       <hr>
+       <p>This is student page</p>
+       <p>Student Information</p>
+       <hr>
+	   	<!-- space -->
 			<form name="clock">
 			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
 			</form>
@@ -158,10 +171,10 @@ window.onload=startclock;
         </div><!--/span-->
 	<div class="span10">
 	<div class="contentheader">
-			<i class="icon-table"></i> Students
+			<!-- <i class="icon-table"></i> Students -->
 			</div>
 			<ul class="breadcrumb">
-			<li><a href="index.php">Dashboard</a></li> /
+			<li><a href="index.php">Home</a></li> /
 			<li class="active">Students</li>
 			</ul>
 

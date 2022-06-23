@@ -121,7 +121,7 @@ text-decoration:none;
 	margin-top: 13px;
 }
 #resultTable thead tr th {
-    background: none repeat scroll 0 0 #722290;
+    background: none repeat scroll 0 0 #902222;
     color: #fff;
     padding: 10px 14px;
     text-align: left;
@@ -161,7 +161,7 @@ text-decoration:none;
 	padding-right:15px;
 	border-radius:10px;
 	margin:10px;
-	border:1px solid #722290;
+	border:1px solid #90224e;
 	background: #fff;
 	color: #722290;
 	font-size:20px;

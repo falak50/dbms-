@@ -135,7 +135,7 @@ window.onload=startclock;
 	<div class="span2">
           <div class="well sidebar-nav">
               <ul class="nav nav-list">
-              <li><a href="index.php"><i class="icon-dashboard icon-2x"></i> Dashboard </a></li> 
+              <li><a href="index.php"><i class="icon-dashboard icon-2x"></i> Home </a></li> 
 			<li ><a href="students.php"><i class="icon-group icon-2x"></i>Manage Students</a>  </li>
 			<li><a href="addstudent.php"><i class="icon-user icon-2x"></i>Add Student</a>     </li>
 
@@ -157,13 +157,13 @@ window.onload=startclock;
 			<i class="icon-table"></i> Students
 			</div>
 			<ul class="breadcrumb">
-			<li><a href="index.php">Dashboard</a></li> /
+			<li><a href="index.php">Home</a></li> /
 			<li class="active">Students</li>
 			</ul>
 
 
 <div style="margin-top: -19px; margin-bottom: 21px;">
-<a  href="index.php"><button class="btn btn-default btn-large" style="float: left;"><i class="icon icon-circle-arrow-left icon-large"></i> Back</button></a>
+<a  href="index.php"><button class="btn btn-default btn-large" style="float: left;"><i class="icon icon-circle-arrow-left icon-large"></i> Back Page</button></a>
 <center><?php
 	include('../connect.php');
 	$id=$_GET['id'];

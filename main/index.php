@@ -10,11 +10,19 @@
   
   <link rel="stylesheet" href="css/font-awesome.min.css">
     <style type="text/css">
-    
+      
       .sidebar-nav {
         padding: 9px 0;
       }
     </style>
+
+	<style>
+		body{
+	        /* margin-left : 10px, */
+			background-image : url(p1.jpg);
+		}
+	
+	</style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
@@ -86,7 +94,7 @@ window.onload=startclock;
 // End -->
 </SCRIPT>	
 </head>
-<body>
+<body style="">
 <?php include('navfixed.php');?>
 	<?php
 $position=$_SESSION['SESS_LAST_NAME'];
@@ -104,7 +112,7 @@ if($position=='admin') {
 	<div class="span2">
           <div class="well sidebar-nav">
               <ul class="nav nav-list">
-              <li class="active"><a href="index.php"><i class="icon-dashboard icon-2x"></i> Dashboard </a></li> 
+              <li class="active"><a href="index.php"><i class="icon-dashboard icon-2x"></i>Home </a></li> 
 			<li><a href="students.php"><i class="icon-group icon-2x"></i>Manage Students</a>       </li>
 			<li><a href="addstudent.php"><i class="icon-user icon-2x"></i>Add Student</a>         </li>
 
@@ -112,7 +120,13 @@ if($position=='admin') {
 			<br><br>	
 			<li>
 			 <div class="hero-unit-clock">
-		
+			<!-- space -->
+			<br>
+       <hr>
+       <p>This is Home page</p>
+       <p>Student Management</p>
+       <hr>
+	   	<!-- space -->
 			<form name="clock">
 			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
 			</form>
@@ -124,10 +138,11 @@ if($position=='admin') {
         </div><!--/span-->
 	<div class="span10">
 	<div class="contentheader">
-			<i class="icon-dashboard"></i> Dashboard
+	<!-- class="icon-dashboard" -->
+			<i style="color:blue;">Icon Coaching Center</i> 
 			</div>
 			<ul class="breadcrumb">
-			<li class="active">Dashboard</li>
+			<!-- <li class="active">Dashboard</li> -->
 			</ul>
 			<font style=" font:bold 44px 'Aleo'; color:#722290;"><center>Student Record Management System</center></font>
 <div id="mainmain">

@@ -21,7 +21,7 @@ Model :: Students Records Management System
   <link rel="stylesheet" href="main/css/font-awesome.min.css">
     <style type="text/css">
       body {
-		background-color = #D6ACE6; */
+		/* background-color = #D6ACE6; */ 
         padding-top: 60px;
          padding-bottom: 40px; 
 		
@@ -30,6 +30,14 @@ Model :: Students Records Management System
         padding: 9px 0;
       }
     </style>
+		<style>
+		body{
+	        /* margin-left : 10px, */
+			background-image : url(p6.webp);
+		}
+
+	
+	</style>
     <link href="main/css/bootstrap-responsive.css" rel="stylesheet">
 
 <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -50,9 +58,13 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 	unset($_SESSION['ERRMSG_ARR']);
 }
 ?>
-<form action="login.php" method="post">
+<div  class="for">
+<form  action="login.php" method="post">
 
-			<font style=" font:bold 44px 'Aleo'; color:#fff;"><center>SRMS</center></font>
+			<font style=" font:bold 44px 'Aleo'; color:#fff;">
+			<center> 
+            <i>Login Page</i>
+			</center></font>
 		<br>
 
 		
@@ -61,11 +73,15 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 </div>
 <div class="input-prepend">
 	<input type="password" style="height:40px;" name="password" Placeholder="Password" required/><br>
+	<br>
 		</div>
 		<div class="qwe">
-		 <button class="btn btn-large btn-primary btn-block pull-right" href="dashboard.html" type="submit"><i class="icon-signin icon-large"></i> Login</button>
+		 <button class="btn btn-large btn-primary btn-block pull-right" href="dashboard.html" type="submit"><i class="icon-signin icon-large"></i> <i>Login</i> </button>
 </div>
 		 </form>
+
+</div>
+
 </div>
 </div>
 </div>
