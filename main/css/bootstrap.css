@@ -2876,7 +2876,7 @@ table .span24 {
   position:fixed;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #722290;
+  background-color: #902222;
 }
 
 .well a{
@@ -2968,11 +2968,11 @@ button.close {
   font-size: 14px;
   line-height: 20px;
   *line-height: 20px;
-  color: #722290;
+  color: #902255;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  border: 1px solid #722290;
+  border: 1px solid #90222b;
   *border: 0;
   border-bottom-color: #a2a2a2;
   -webkit-border-radius: 4px;
@@ -3230,7 +3230,7 @@ button.close {
 
 .btn-info {
   color: #ffffff;
-  background-color: #722290;
+  background-color: #902234;
   border-color: #2f96b4 #2f96b4 #1f6377;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
@@ -3273,7 +3273,7 @@ button.close {
 .btn-inverse.active,
 .btn-inverse.disabled,
 .btn-inverse[disabled] {
-  color: #722290;
+  color: #2f010d;
   background-color: #fff;
   *background-color: #151515;
 }
@@ -4303,7 +4303,7 @@ input[type="submit"].btn.btn-mini {
   margin-right: 5px;
   margin-left: 5px;
   color: #ffffff;
-  background-color: #722290;
+  background-color: #902224;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#e5e5e5));
   background-image: -webkit-linear-gradient(top, #f2f2f2, #e5e5e5);
   background-image: -o-linear-gradient(top, #f2f2f2, #e5e5e5);
